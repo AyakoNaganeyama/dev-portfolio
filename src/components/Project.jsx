@@ -26,9 +26,12 @@ const projects = [
   ];
   const Project = () => {
   return (
-    <div className="bg-black text-white py-20" id="project">
-    <div className="container mx-auto px-8 md:px-16 lg:px-24">
-      <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+    <div className='bg-black w-full h-full min-h-screen '>
+    <div className='bg-black flex flex-col mx-auto container items-center md:items-start justify-center'>
+
+    <div className="bg-gray text-white py-20" id="project">
+    <div>
+    <h2 className="text-4xl font-bold mb-12">Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <div key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg
@@ -44,6 +47,8 @@ const projects = [
         ))}
       </div>
     </div>
+  </div>
+  </div>
   </div>
   )
 }
