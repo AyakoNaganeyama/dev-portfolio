@@ -47,7 +47,7 @@ const projects = [
   ];
   const Project = () => {
   return (
-    <div className='bg-black w-full h-full min-h-screen flex justify-center '>
+    <div className='bg-black w-full h-full min-h-screen flex justify-center ' id="projects">
     <div className='bg-black flex flex-col mx-auto container items-center md:items-start justify-center'>
 
     <div className="bg-gray text-white py-20" id="project">
