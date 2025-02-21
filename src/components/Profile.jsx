@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div className='w-full min-h-screen flex flex-col'>
             <Navbar />
-            <div className='flex-grow bg-black text-white text-center py-16'>
+            <div className="flex flex-col items-center justify-center h-screen bg-black text-white text-center py-16">
                 <img
                     src={Ayako}
                     alt="Ayako"
