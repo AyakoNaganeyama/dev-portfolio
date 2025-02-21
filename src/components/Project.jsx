@@ -68,11 +68,11 @@ const projects = [
             <div className="flex justify-between md:space-x-4  mt-auto">
             <a href={project.Link} className="inline-block bg-gradient-to-r
             from-pink-500 to-yellow-500 text-white px-4 py-2 rounded-full" target="_blank"
-            rel="noopener noreferrer">Project Link</a>
+            rel="noopener noreferrer">Project</a>
 
 <a href={project.github} className="inline-block bg-gradient-to-r
             from-pink-500 to-yellow-500 text-white px-4 py-2 rounded-full" target="_blank"
-            rel="noopener noreferrer">Code and Document</a>
+            rel="noopener noreferrer">Code,Doc</a>
 
 </div>
           </div>
