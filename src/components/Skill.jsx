@@ -2,12 +2,14 @@ import React from 'react'
 
 const Skill = () => {
   return (
-    <div className='flex flex-col mx-auto container items-center md:items-start w-full h-full min-h-screen justify-center bg-gray-800'>
+    <div className='flex w-full h-full min-h-screen justify-center bg-gray-800 items-center pt-60 pb-60'>
+
+    <div className=' mx-auto container '>
 
         <div>
-    <h2 className="text-4xl font-bold mb-12 ">Skills</h2>
+    <h2 className="text-4xl font-bold mb-12 text-white">Skills</h2>
 
-    <h3 className="text-4xl font-bold mb-12 underline decoration-slate-300">Frontend</h3>
+    <h3 className="text-4xl font-bold mb-12 underline decoration-slate-300 text-white">Frontend</h3>
     <div className='mt-8 flex-wrap grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6'>
         <button
         className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white
@@ -31,7 +33,7 @@ const Skill = () => {
 
 
 
-<h3 className="text-4xl font-bold mt-20 mb-12 underline decoration-slate-300">Backend</h3>
+<h3 className="text-4xl font-bold mt-20 mb-12 underline decoration-slate-300 text-white">Backend</h3>
     <div className='mt-8 flex-wrap grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6'>
         <button
         className='w-auto bg-gradient-to-r from-pink-500 to-yellow-500 text-white
@@ -55,6 +57,7 @@ const Skill = () => {
 
 </div>
 
+    </div>
     </div>
   )
 }
