@@ -4,8 +4,10 @@ import Navbar from './Navbar'
 
 const Profile = () => {
     return (
-        <div className='w-full min-h-screen flex flex-col'>
-            <Navbar />
+        <>
+        <Navbar />
+        <div className='w-full min-h-screen flex flex-col  py-40  bg-black'>
+
             <div className="flex flex-col items-center justify-center h-screen bg-black text-white text-center py-16">
                 <img
                     src={Ayako}
@@ -25,6 +27,7 @@ const Profile = () => {
                 </p>
             </div>
         </div>
+        </>
     )
 }
 
