@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 const Profile = () => {
   const scrollToSkills = () => {
-    const skillsSection = document.getElementById('skills');
+    const skillsSection = document.getElementById('project');
     if (skillsSection) {
       skillsSection.scrollIntoView({ behavior: 'smooth' });
     }
