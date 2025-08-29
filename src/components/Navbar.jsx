@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-200 dark:bg-gray-900 fixed top-0 left-0 w-full z-50">
+    <nav className=" dark:bg-gray-900 fixed top-0 left-0 w-full z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo Section */}
         <a href="#" className="flex items-center space-x-3">

@@ -1,34 +1,35 @@
-import React from 'react'
-import Ayako from '../assets/ayako.jpg'
-import Navbar from './Navbar'
+import React from 'react';
+import Navbar from './Navbar';
 
 const Profile = () => {
-    return (
-        <>
-        <Navbar />
-        <div className='w-full min-h-screen flex flex-col  py-40  bg-black'>
+  const scrollToSkills = () => {
+    const skillsSection = document.getElementById('skills');
+    if (skillsSection) {
+      skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-            <div className="flex flex-col items-center justify-center h-screen bg-black text-white text-center py-16">
-                <img
-                    src={Ayako}
-                    alt="Ayako"
-                    className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform
-                    transition-transform duration-300 hover:scale-105'
-                />
-                <h1 className='text-4xl font-bold'>
-                    I'm{" "}
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500'>
-                        Ayako Naganeyama
-                    </span>
-                    , Full-Stack Developer
-                </h1>
-                <p className='mt-4 text-lg text-gray-300'>
-                    I love tackling complex problems and turning ideas into functional, user-friendly applications.
-                </p>
-            </div>
-        </div>
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <div className="w-full min-h-screen flex flex-col justify-center items-center text-center py-40
+                      bg-gradient-to-br from-black via-gray-900 to-gray-800">
+        <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text text-white mb-4 leading-tight">
+          Ayako Naganeyama
+        </h1>
+        <p className="text-xl md:text-2xl text-gray-300 mb-10">
+          Full-Stack Developer
+        </p>
 
-export default Profile
+        <button
+          onClick={scrollToSkills}
+          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:scale-105 transform transition-transform duration-300"
+        >
+          See My Skills
+        </button>
+      </div>
+    </>
+  );
+};
+
+export default Profile;
