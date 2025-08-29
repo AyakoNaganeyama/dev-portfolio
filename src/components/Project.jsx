@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     name: "Kimono E-commerce Website",
-    technologies: "ASP.NET Core MVC, C#",
+    technologies: "ASP.NET Core MVC, C#, MS SQL",
     image: Kimono,
     github: "https://github.com/AyakoNaganeyama/kimono-ecommerce-newzealand",
     link: "https://ma-kimono20250110153501.azurewebsites.net/",
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 3,
     name: "Weather Mobile App",
-    technologies: "React Native Expo, TypeScript",
+    technologies: "React Native Expo, TypeScript, APIs, Zustand",
     image: Weather,
     github: "https://github.com/AyakoNaganeyama/weather-mobile-app",
     link: "https://expo.dev/preview/update?message=configure%20eas&updateRuntimeVersion=1.2.2&createdAt=2025-01-03T22%3A46%3A43.758Z&slug=exp&projectId=66cbf7f4-3f1d-4cb7-b21a-738c6f2c41a8&group=9e8508fb-815b-440a-9757-6fa36dbfe40c",
@@ -34,7 +34,7 @@ const projects = [
   {
     id: 4,
     name: "To-do Mobile App",
-    technologies: "React Native Expo, TypeScript",
+    technologies: "React Native Expo, TypeScript, AsyncStorage, Zustand",
     image: TODO,
     github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
     link: "https://expo.dev/preview/update?message=Fix+bug+in+login+screen&updateRuntimeVersion=1.0.0&createdAt=2025-08-10T09%3A59%3A33.583Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=80ae8c98-d873-4f64-b566-1754e83e5d33",
@@ -57,7 +57,8 @@ const Project = () => {
           <h2 className="text-4xl font-bold mb-12 text-center md:text-left">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => {
-              const isPrivate = project.id === 5; // check inside the map
+              const isPrivate = project.id === 5;
+              const demoPrivate = project.id === 3;
 
               return (
                 <div
@@ -76,7 +77,7 @@ const Project = () => {
 
                  <div className="flex justify-between mt-auto gap-2">
   {/* Project Button */}
-  {isPrivate ? (
+  {isPrivate || demoPrivate ? (
     <button className="flex-1 text-center px-4 py-2 rounded-full bg-gray-600 text-gray-300 cursor-not-allowed">
       Private
     </button>
