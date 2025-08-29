@@ -37,7 +37,7 @@ const projects = [
     technologies: "React Native Expo, TypeScript",
     image: TODO,
     github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
-    link: "https://expo.dev/preview/update?message=set%20addVersionSource&updateRuntimeVersion=1.1.0&createdAt=2024-12-31T01%3A02%3A09.239Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=9b10e8b7-47f0-4483-a75c-bbc20d22645e",
+    link: "https://expo.dev/preview/update?message=Fix+bug+in+login+screen&updateRuntimeVersion=1.0.0&createdAt=2025-08-10T09%3A59%3A33.583Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=80ae8c98-d873-4f64-b566-1754e83e5d33",
   },
   {
     id: 5,
