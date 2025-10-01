@@ -37,7 +37,7 @@ const projects = [
     name: "Volunteer Seeking Mobile App",
     technologies: "React Native Expo, TypeScript, Firebase, Zustand, AsyncStorage",
     image: Vol,
-    github: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
+    github: "https://github.com/AyakoNaganeyama/volunteer-mobile-app-filebased-route",
     link: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
   }
 ];
