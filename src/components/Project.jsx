@@ -50,8 +50,7 @@ const Project = () => {
           <h2 className="text-4xl font-bold mb-12 text-center md:text-left">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => {
-              const isPrivate = project.id === 5;
-              const demoPrivate = project.id === 3;
+
 
               return (
                 <div
@@ -86,11 +85,7 @@ const Project = () => {
   )}
 
   {/* Code & Doc Button */}
-  {isPrivate ? (
-    <button className="flex-1 text-center px-4 py-2 rounded-full bg-gray-600 text-gray-300 cursor-not-allowed">
-      Private
-    </button>
-  ) : (
+
     <a
       href={project.github}
       target="_blank"
@@ -99,7 +94,7 @@ const Project = () => {
     >
       Code & Doc
     </a>
-  )}
+
 </div>
                 </div>
               );
