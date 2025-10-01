@@ -57,7 +57,7 @@ const Project = () => {
                   key={project.id}
                   className="bg-gray-800 p-6 rounded-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105 flex flex-col h-full"
                 >
-                  <a href={isPrivate ? "#" : project.link} target="_blank" rel="noopener noreferrer">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <img
                       src={project.image}
                       alt={project.name}
