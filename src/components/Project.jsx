@@ -23,29 +23,22 @@ const projects = [
     github: "https://github.com/AyakoNaganeyama/static-japanwebsite",
     link: "https://ayakonaganeyama.github.io/static-japanwebsite/",
   },
-  {
-    id: 3,
-    name: "Weather Mobile App",
-    technologies: "React Native Expo, TypeScript, APIs, Zustand",
-    image: Weather,
-    github: "https://github.com/AyakoNaganeyama/weather-mobile-app",
-    link: "https://expo.dev/preview/update?message=configure%20eas&updateRuntimeVersion=1.2.2&createdAt=2025-01-03T22%3A46%3A43.758Z&slug=exp&projectId=66cbf7f4-3f1d-4cb7-b21a-738c6f2c41a8&group=9e8508fb-815b-440a-9757-6fa36dbfe40c",
-  },
+
   {
     id: 4,
     name: "To-do Mobile App",
     technologies: "React Native Expo, TypeScript, AsyncStorage, Zustand",
     image: TODO,
     github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
-    link: "https://expo.dev/preview/update?message=Fix+bug+in+login+screen&updateRuntimeVersion=1.0.0&createdAt=2025-08-10T09%3A59%3A33.583Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=80ae8c98-d873-4f64-b566-1754e83e5d33",
+    link: "https://expo.dev/preview/update?message=SDK+update&updateRuntimeVersion=1.0.0&createdAt=2025-10-01T02%3A11%3A05.930Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=0f58ab30-7b57-438e-84df-307a22e605b7",
   },
   {
     id: 5,
     name: "Volunteer Seeking Mobile App",
     technologies: "React Native Expo, TypeScript, Firebase, Zustand, AsyncStorage",
     image: Vol,
-    github: "#",
-    link: "#",
+    github: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
+    link: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
   }
 ];
 
