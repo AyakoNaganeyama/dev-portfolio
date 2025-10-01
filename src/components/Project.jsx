@@ -69,11 +69,7 @@ const Project = () => {
 
                  <div className="flex justify-between mt-auto gap-2">
   {/* Project Button */}
-  {isPrivate || demoPrivate ? (
-    <button className="flex-1 text-center px-4 py-2 rounded-full bg-gray-600 text-gray-300 cursor-not-allowed">
-      Private
-    </button>
-  ) : (
+
     <a
       href={project.link}
       target="_blank"
@@ -82,7 +78,7 @@ const Project = () => {
     >
       Preview
     </a>
-  )}
+
 
   {/* Code & Doc Button */}
 
