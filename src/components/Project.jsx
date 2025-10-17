@@ -5,6 +5,7 @@ import Japan from '../assets/japansite.jpg';
 import Weather from '../assets/dataManagement.jpg';
 import TODO from '../assets/demo-datapresistance.jpg';
 import Vol from '../assets/volunteerapp.jpg'
+import Game from '../assets/game.jpg'
 
 const projects = [
   {
@@ -17,15 +18,15 @@ const projects = [
   },
   {
     id: 2,
-    name: "Tourism Website",
-    technologies: "HTML, CSS, JavaScript",
-    image: Japan,
-    github: "https://github.com/AyakoNaganeyama/static-japanwebsite",
-    link: "https://ayakonaganeyama.github.io/static-japanwebsite/",
+    name: "Side Scroller Game",
+    technologies: "React, TypeScript",
+    image: Game,
+    github: "https://github.com/AyakoNaganeyama/side-scroller-game",
+    link: "https://side-scroller-game-git-main-ayakonaganeyamas-projects.vercel.app/",
   },
 
   {
-    id: 4,
+    id: 3,
     name: "To-do Mobile App",
     technologies: "React Native Expo, TypeScript, AsyncStorage, Zustand",
     image: TODO,
@@ -33,12 +34,21 @@ const projects = [
     link: "https://expo.dev/preview/update?message=SDK+update&updateRuntimeVersion=1.0.0&createdAt=2025-10-01T02%3A11%3A05.930Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=0f58ab30-7b57-438e-84df-307a22e605b7",
   },
   {
-    id: 5,
+    id: 4,
     name: "Volunteer Seeking Mobile App",
     technologies: "React Native Expo, TypeScript, Firebase, Zustand, AsyncStorage",
     image: Vol,
     github: "https://github.com/AyakoNaganeyama/volunteer-mobile-app-filebased-route",
     link: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
+  },
+  {
+
+    id: 5,
+    name: "Tourism Website",
+    technologies: "HTML, CSS, JavaScript",
+    image: Japan,
+    github: "https://github.com/AyakoNaganeyama/static-japanwebsite",
+    link: "https://ayakonaganeyama.github.io/static-japanwebsite/",
   }
 ];
 
@@ -61,7 +71,7 @@ const Project = () => {
                     <img
                       src={project.image}
                       alt={project.name}
-                      className="rounded-lg mb-4 w-full h-48 object-cover"
+                      className="rounded-lg mb-4 w-full h-48 object-contain bg-black"
                     />
                   </a>
                   <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
