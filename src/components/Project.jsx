@@ -11,7 +11,7 @@ const projects = [
   {
     id: 1,
     name: "Kimono E-commerce Website",
-    technologies: "ASP.NET Core MVC, C#, MS SQL",
+    technologies: "ASP.NET Core MVC, Microsoft Azure, C#, MS SQL",
     image: Kimono,
     github: "https://github.com/AyakoNaganeyama/kimono-ecommerce-newzealand",
     link: "https://ma-kimono20250110153501.azurewebsites.net/",
