@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "Weathe App",
+    name: "Weather App",
     technologies: "React Native Expo, TypeScript, Rapid API, Firebase",
     image: Weather,
     github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
