@@ -22,7 +22,7 @@ const projects = [
     technologies: "React, TypeScript",
     image: Game,
     github: "https://github.com/AyakoNaganeyama/side-scroller-game",
-    link: "https://side-scroller-game-git-main-ayakonaganeyamas-projects.vercel.app/",
+    link: "side-scroller-game-phi.vercel.app",
   },
   {
     id: 3,
