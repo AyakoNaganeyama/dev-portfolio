@@ -127,25 +127,25 @@ const Project = () => {
                       Preview
                     </a>
 
-                    {/* Code & Doc Button */}
-                    {project.name === "Weathe App" ? (
-                      <button
-                        disabled
-                        className="flex-1 text-center px-4 py-2 rounded-full bg-gray-600 text-gray-300 cursor-not-allowed"
-                        title="Private Repository"
-                      >
-                        Private
-                      </button>
-                    ) : (
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 text-center px-4 py-2 rounded-full bg-gradient-to-r from-pink-500 to-yellow-500 text-white hover:scale-105 transform transition-transform duration-300"
-                      >
-                        Code & Doc
-                      </a>
-                    )}
+                  {/* Code & Doc Button */}
+{project.name === "Weather App" ? (
+  <button
+    disabled
+    className="flex-1 text-center px-4 py-2 rounded-full bg-gray-600 text-gray-300 cursor-not-allowed"
+    title="Private Repository"
+  >
+    Private
+  </button>
+) : (
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 text-center px-4 py-2 rounded-full bg-gradient-to-r from-pink-500 to-yellow-500 text-white hover:scale-105 transform transition-transform duration-300"
+  >
+    Code & Doc
+  </a>
+)}
                   </div>
                 </div>
               </div>
