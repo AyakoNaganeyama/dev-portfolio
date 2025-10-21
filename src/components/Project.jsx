@@ -30,7 +30,7 @@ const projects = [
     technologies: "React Native Expo, TypeScript, Rapid API, Firebase",
     image: Weather,
     github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
-    link: "https://expo.dev/preview/update?message=Fixed+Expo+config+structure+and+removed+warning&updateRuntimeVersion=1.0.0&createdAt=2025-10-21T05%3A19%3A44.252Z&slug=exp&projectId=66cbf7f4-3f1d-4cb7-b21a-738c6f2c41a8&group=739a857c-e5e2-4683-abd9-2ff0719b6c01",
+    link: "https://expo.dev/preview/update?message=Updated+Expo+config+and+fixed+root-level+warning&updateRuntimeVersion=1.0.0&createdAt=2025-10-21T23%3A15%3A25.450Z&slug=exp&projectId=66cbf7f4-3f1d-4cb7-b21a-738c6f2c41a8&group=41cd6940-4b23-4ddd-83fa-704952b6beae",
   },
   {
     id: 4,
