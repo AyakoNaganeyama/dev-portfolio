@@ -95,7 +95,7 @@ const Project = () => {
                 <div>
                   {(project.id === 3 || project.id === 4 || project.id === 5) && (
                     <div className="text-xs text-gray-300 mb-4">
-                      *To view the app on your mobile phone, please download Expo Go app:{" "}
+                      *To view the app on your mobile phone, please download Expo Go app and scan the QR code in preview:{" "}
                       <a
                         href="https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en"
                         target="_blank"
