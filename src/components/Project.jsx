@@ -9,23 +9,37 @@ import Game from "../assets/game.jpg";
 
 const projects = [
   {
+
+
     id: 1,
+    name: "Volunteer Seeking Mobile App",
+    technologies: "React Native Expo, TypeScript, Firebase, Zustand, AsyncStorage",
+    image: Vol,
+    github: "https://github.com/AyakoNaganeyama/volunteer-mobile-app-filebased-route",
+    link: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
+
+  },
+  {
+    id: 2,
     name: "Kimono E-commerce Website",
     technologies: "ASP.NET Core MVC, Microsoft Azure, C#, MS SQL",
     image: Kimono,
     github: "https://github.com/AyakoNaganeyama/kimono-ecommerce-newzealand",
     link: "https://ma-kimono20250110153501.azurewebsites.net/",
+
   },
   {
-    id: 2,
+
+      id: 3,
     name: "Side Scroller Game",
     technologies: "React, TypeScript",
     image: Game,
     github: "https://github.com/AyakoNaganeyama/side-scroller-game",
     link: "https://side-scroller-game-phi.vercel.app/",
+
   },
   {
-    id: 3,
+    id: 4,
     name: "Weather App",
     technologies: "React Native Expo, TypeScript, Rapid API, Firebase",
     image: Weather,
@@ -33,20 +47,12 @@ const projects = [
     link: "https://expo.dev/preview/update?message=Updated+Expo+config+and+fixed+root-level+warning&updateRuntimeVersion=1.0.0&createdAt=2025-10-21T23%3A15%3A25.450Z&slug=exp&projectId=66cbf7f4-3f1d-4cb7-b21a-738c6f2c41a8&group=41cd6940-4b23-4ddd-83fa-704952b6beae",
   },
   {
-    id: 4,
+      id: 5,
     name: "To-do Mobile App",
     technologies: "React Native Expo, TypeScript, AsyncStorage, Zustand",
     image: TODO,
     github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
     link: "https://expo.dev/preview/update?message=SDK+update&updateRuntimeVersion=1.0.0&createdAt=2025-10-01T02%3A11%3A05.930Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=0f58ab30-7b57-438e-84df-307a22e605b7",
-  },
-  {
-    id: 5,
-    name: "Volunteer Seeking Mobile App",
-    technologies: "React Native Expo, TypeScript, Firebase, Zustand, AsyncStorage",
-    image: Vol,
-    github: "https://github.com/AyakoNaganeyama/volunteer-mobile-app-filebased-route",
-    link: "https://expo.dev/preview/update?message=SDK+updated&updateRuntimeVersion=1.0.0&createdAt=2025-09-28T23%3A58%3A48.422Z&slug=exp&projectId=18eb286a-729b-4319-ab6f-e037c849b6a1&group=1a5f38ae-f4e5-4d87-a45b-074c13452d75",
   },
   {
     id: 6,
