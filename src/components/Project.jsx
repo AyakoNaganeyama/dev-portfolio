@@ -29,7 +29,7 @@ const projects = [
     name: "Weather App",
     technologies: "React Native Expo, TypeScript, Rapid API, Firebase",
     image: Weather,
-    github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
+    github: "https://github.com/AyakoNaganeyama/weather-mobile-app",
     link: "https://expo.dev/preview/update?message=Updated+Expo+config+and+fixed+root-level+warning&updateRuntimeVersion=1.0.0&createdAt=2025-10-21T23%3A15%3A25.450Z&slug=exp&projectId=66cbf7f4-3f1d-4cb7-b21a-738c6f2c41a8&group=41cd6940-4b23-4ddd-83fa-704952b6beae",
   },
   {
@@ -128,15 +128,6 @@ const Project = () => {
                     </a>
 
                   {/* Code & Doc Button */}
-{project.name === "Weather App" ? (
-  <button
-    disabled
-    className="flex-1 text-center px-4 py-2 rounded-full bg-gray-600 text-gray-300 cursor-not-allowed"
-    title="Private Repository"
-  >
-    Private
-  </button>
-) : (
   <a
     href={project.github}
     target="_blank"
@@ -145,7 +136,6 @@ const Project = () => {
   >
     Code & Doc
   </a>
-)}
                   </div>
                 </div>
               </div>
