@@ -15,7 +15,7 @@ const Profile = () => {
       <div className="w-full min-h-screen flex flex-col justify-center items-center text-center py-40
                       bg-gradient-to-br from-black via-gray-900 to-gray-800">
         <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text text-white mb-4 leading-tight">
-          Ayako Tagaloa
+          Ayako Tagaloa Naganeyama
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-10">
           Full-Stack Developer
