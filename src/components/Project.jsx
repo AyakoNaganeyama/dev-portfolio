@@ -6,6 +6,7 @@ import Weather from "../assets/dataManagement.jpg";
 import TODO from "../assets/demo-datapresistance.jpg";
 import Vol from "../assets/volunteerapp.jpg";
 import Game from "../assets/game.jpg";
+import Tracker from "../assets/expenseTracker.jpg"
 
 const projects = [
   {
@@ -48,11 +49,13 @@ const projects = [
   },
   {
       id: 5,
-    name: "To-do Mobile App",
-    technologies: "React Native Expo, TypeScript, AsyncStorage, Zustand",
-    image: TODO,
-    github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
-    link: "https://expo.dev/preview/update?message=SDK+update&updateRuntimeVersion=1.0.0&createdAt=2025-10-01T02%3A11%3A05.930Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=0f58ab30-7b57-438e-84df-307a22e605b7",
+
+       name: "Expense Tracker",
+    technologies: "React Native (Expo), TypeScript, Supabase (PostgreSQL)",
+    image: Tracker,
+    github: "https://github.com/AyakoNaganeyama/budget-pal",
+    link: "https://github.com/AyakoNaganeyama/budget-pal",
+
   },
   {
     id: 6,
@@ -61,6 +64,14 @@ const projects = [
     image: Japan,
     github: "https://github.com/AyakoNaganeyama/static-japanwebsite",
     link: "https://ayakonaganeyama.github.io/static-japanwebsite/",
+  },
+   {
+    id: 7,
+    name: "To-do Mobile App",
+    technologies: "React Native Expo, TypeScript, AsyncStorage, Zustand",
+    image: TODO,
+    github: "https://github.com/AyakoNaganeyama/to-do-list-mobile-app",
+    link: "https://expo.dev/preview/update?message=SDK+update&updateRuntimeVersion=1.0.0&createdAt=2025-10-01T02%3A11%3A05.930Z&slug=exp&projectId=ba97eb8d-f733-4ac9-b817-975a16122842&group=0f58ab30-7b57-438e-84df-307a22e605b7",
   },
 ];
 
@@ -99,7 +110,7 @@ const Project = () => {
 
                 {/* Bottom section (download + buttons) */}
                 <div>
-                  {(project.id === 3 || project.id === 4 || project.id === 5) && (
+                  {( project.id === 4 || project.id === 1 || project.id === 7) && (
                     <div className="text-xs text-gray-300 mb-4">
                       *To view the app on your mobile phone, please download Expo Go app and scan the QR code in preview:{" "}
                       <a
