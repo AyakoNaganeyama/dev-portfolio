@@ -146,7 +146,7 @@ const Project = () => {
 
                   {/* Code & Doc Button */}
                    {/* Test */}
-                    {/* Test2 */}
+                    {/* Test merge conflict 2 */}
   <a
     href={project.github}
     target="_blank"
